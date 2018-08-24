@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180824 10:34:29.728" generator="Robot 3.0.4 (Python 2.7.14 on win32)">
+<suite source="C:\Users\6782\PycharmProjects\Login.robot" id="s1" name="Login">
+<test id="s1-t1" name="Test Login Funtionality">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${Url}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20180824 10:34:31.915" level="INFO">Opening browser 'Chrome' to base url 'http://newtours.demoaut.com/mercuryregister.php?osCsid=931359c3920000627f51ca7e0b55cc8b'.</msg>
+<status status="PASS" endtime="20180824 10:34:45.645" starttime="20180824 10:34:31.915"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath: //input[@name='firstName']</arg>
+<arg>Admin</arg>
+</arguments>
+<msg timestamp="20180824 10:34:45.646" level="INFO">Typing text 'Admin' into text field 'xpath: //input[@name='firstName']'.</msg>
+<status status="PASS" endtime="20180824 10:34:45.823" starttime="20180824 10:34:45.645"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath: //input[@name='lastName']</arg>
+<arg>Password</arg>
+</arguments>
+<msg timestamp="20180824 10:34:45.825" level="INFO">Typing text 'Password' into text field 'xpath: //input[@name='lastName']'.</msg>
+<status status="PASS" endtime="20180824 10:34:45.972" starttime="20180824 10:34:45.825"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath: //input[@name='register']</arg>
+</arguments>
+<msg timestamp="20180824 10:34:45.973" level="INFO">Clicking button 'xpath: //input[@name='register']'.</msg>
+<status status="PASS" endtime="20180824 10:34:50.689" starttime="20180824 10:34:45.973"></status>
+</kw>
+<status status="PASS" endtime="20180824 10:35:00.562" critical="yes" starttime="20180824 10:34:31.914"></status>
+</test>
+<doc>Suite description</doc>
+<status status="PASS" endtime="20180824 10:35:00.590" starttime="20180824 10:34:29.733"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Login" pass="1">Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
