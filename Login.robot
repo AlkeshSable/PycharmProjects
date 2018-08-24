@@ -18,5 +18,6 @@ Test Login Funtionality
     Input Text  xpath: //input[@name='firstName']  Admin
     Input Text  xpath: //input[@name='lastName']  Password
     Click Button  xpath: //input[@name='register']
+    Close Browser
 
 
