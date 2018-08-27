@@ -15,7 +15,7 @@ ${Url}  http://newtours.demoaut.com/mercuryregister.php?osCsid=931359c3920000627
 Test Login Funtionality
     Open Browser  ${Url}  ${Browser}
 
-    Input Text  xpath: //input[@name='firstName']  Admin
+    Input Text  xpath: //input[@name='firstName']  Alkesh
     Input Text  xpath: //input[@name='lastName']  Password
     Click Button  xpath: //input[@name='register']
 
