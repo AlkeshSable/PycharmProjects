@@ -16,7 +16,7 @@ Test Login Funtionality
     Open Browser  ${Url}  ${Browser}
 
     Input Text  xpath: //input[@name='firstName']  Alkesh
-    Input Text  xpath: //input[@name='lastName']  Sable#123
+    Input Text  xpath: //input[@name='lastName']  Password
     Click Button  xpath: //input[@name='register']
 
 
